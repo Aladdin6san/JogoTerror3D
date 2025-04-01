@@ -59,10 +59,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Enemy.cs" />
+    <Compile Include="Assets\Scripts\Bullet.cs" />
     <Compile Include="Assets\Scripts\PlayerMove.cs" />
     <Compile Include="Assets\Scripts\Void.cs" />
     <Compile Include="Assets\Scripts\Item.cs" />
     <Compile Include="Assets\Scripts\FP.cs" />
+    <Compile Include="Assets\Scripts\Tiro.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
