@@ -42,7 +42,7 @@ public class Tiro : MonoBehaviour
             municao++;
         }
 
-        if(Input.GetKeyDown(KeyCode.F) && municao>0)
+        if(Input.GetKeyDown(KeyCode.Mouse0) && municao>0)
         {
             municao--;
             bullet.SetActive(true);
