@@ -49,8 +49,6 @@ public class Tiro : MonoBehaviour
             var tiro = Instantiate(bullet, spawn.position, spawn.rotation);
             tiro.GetComponent<Rigidbody>().velocity = spawn.forward*speed;
             Debug.Log("Tiro disparado");
-
-            enemy.speed = 0;
         }
 
     }

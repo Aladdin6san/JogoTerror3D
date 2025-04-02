@@ -1126,7 +1126,7 @@ GameObject:
   - component: {fileID: 1067860784}
   m_Layer: 0
   m_Name: GameObject
-  m_TagString: Untagged
+  m_TagString: Chao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1560,9 +1560,10 @@ GameObject:
   - component: {fileID: 1396566100}
   - component: {fileID: 1396566105}
   - component: {fileID: 1396566106}
+  - component: {fileID: 1396566107}
   m_Layer: 0
   m_Name: Enemy
-  m_TagString: Chao
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1719,6 +1720,19 @@ NavMeshAgent:
   m_BaseOffset: 1
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &1396566107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1396566099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61234eeca88fd864a82fa2687d4e924c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemy: {fileID: 1396566106}
 --- !u!1 &1557217349
 GameObject:
   m_ObjectHideFlags: 0
