@@ -9,6 +9,7 @@ public class Item : MonoBehaviour
     public TextMeshProUGUI texto;
     private static int contador = 0;
     private static int Maxcontador = 7;
+    public GameObject textoUI;
 
 
     void Start()
@@ -23,6 +24,7 @@ public class Item : MonoBehaviour
         {
             Debug.Log("Colidiu");
             playerDentro = true;
+            textoUI.SetActive(true);
         }
     }
 
@@ -31,6 +33,7 @@ public class Item : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             playerDentro = false;
+            textoUI.SetActive(false);
         }
     }
 
