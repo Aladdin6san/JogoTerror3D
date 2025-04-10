@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Rendering.VirtualTexturing;
+using UnityEngine.UI;
 
 public class PlayerMove : MonoBehaviour
 {
@@ -14,43 +15,104 @@ public class PlayerMove : MonoBehaviour
     public bool Onground = true;
     private int JumpCount = 0;
 
-    // Start is called before the first frame update
+    public Image stamina;
+    private bool isSprinting = false;
+    private Coroutine staminaCoroutine;
+    private bool canSprint = true;
+
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+        stamina.fillAmount = 1f;
+        stamina.gameObject.SetActive(false);
     }
 
-    // Update is called once per frame
     void Update()
     {
-        //Pega os inputs
+        HandleSprintInput();
+
         horizontal = Input.GetAxis("Horizontal");
         foward = Input.GetAxis("Vertical");
 
-        //Mexer o jogador para frente e para trás
-        transform.Translate(Vector3.forward *Time.deltaTime *speed*foward);
-        //Mexe o jogador para os lados
-        transform.Translate(Vector3.right*Time.deltaTime *speed*horizontal);
+        transform.Translate(Vector3.forward * Time.deltaTime * speed * foward);
+        transform.Translate(Vector3.right * Time.deltaTime * speed * horizontal);
 
-        //Pulo 
-        if(Input.GetKeyDown(KeyCode.Space) && Onground && JumpCount<2)
+        if (Input.GetKeyDown(KeyCode.Space) && Onground && JumpCount < 2)
         {
-            rb.AddForce(Vector3.up*jump,ForceMode.Impulse);
+            rb.AddForce(Vector3.up * jump, ForceMode.Impulse);
             JumpCount++;
-            if(JumpCount>2)
+            if (JumpCount > 2)
             {
                 Onground = false;
             }
         }
-
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void HandleSprintInput()
     {
-        if(collision.gameObject.CompareTag("Chao"))
+        if ((Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift)) && canSprint)
         {
-            JumpCount = 0;
-            Onground =true;
+            if (!isSprinting && stamina.fillAmount > 0)
+            {
+                isSprinting = true;
+                speed = 7.5f;
+                stamina.gameObject.SetActive(true);
+
+                if (staminaCoroutine != null)
+                    StopCoroutine(staminaCoroutine);
+
+                staminaCoroutine = StartCoroutine(DrainStamina());
+            }
+        }
+        else
+        {
+            if (isSprinting)
+            {
+                isSprinting = false;
+                speed = 5.0f;
+
+                if (staminaCoroutine != null)
+                    StopCoroutine(staminaCoroutine);
+
+                staminaCoroutine = StartCoroutine(RecoverStamina());
+            }
         }
     }
+
+
+    private IEnumerator DrainStamina()
+    {
+        while (stamina.fillAmount > 0f && isSprinting)
+        {
+            stamina.fillAmount -= 0.1f;
+            yield return new WaitForSeconds(0.5f);
+        }
+
+        if (stamina.fillAmount <= 0f)
+        {
+            isSprinting = false;
+            speed = 3.0f;
+            canSprint = false; //trava o sprint
+            staminaCoroutine = StartCoroutine(RecoverStamina());
+        }
+    }
+
+
+    private IEnumerator RecoverStamina()
+    {
+        while (stamina.fillAmount < 1f && !isSprinting)
+        {
+            stamina.fillAmount += 0.1f;
+            yield return new WaitForSeconds(1f);
+        }
+
+        if (stamina.fillAmount >= 1f)
+        {
+            stamina.fillAmount = 1f;
+            stamina.gameObject.SetActive(false);
+            canSprint = true; //  permite sprint de novo
+            speed = 5.0f;
+        }
+    }
+
 }
