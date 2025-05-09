@@ -12,7 +12,6 @@ public class Tiro : MonoBehaviour
     public float speed = 10;
     private int municao = 0;
     public TextMeshProUGUI texto;
-
     private float tempoProximoTiro = 0f;
     public float delayTiro = 4f;
 

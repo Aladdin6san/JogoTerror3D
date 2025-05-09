@@ -13,7 +13,6 @@ public class PlayerMove : MonoBehaviour
     private float foward;
     private Rigidbody rb;
     public bool Onground = true;
-    private int JumpCount = 0;
 
     public Image stamina;
     private bool isSprinting = false;
@@ -37,15 +36,6 @@ public class PlayerMove : MonoBehaviour
         transform.Translate(Vector3.forward * Time.deltaTime * speed * foward);
         transform.Translate(Vector3.right * Time.deltaTime * speed * horizontal);
 
-        if (Input.GetKeyDown(KeyCode.Space) && Onground && JumpCount < 2)
-        {
-            rb.AddForce(Vector3.up * jump, ForceMode.Impulse);
-            JumpCount++;
-            if (JumpCount > 2)
-            {
-                Onground = false;
-            }
-        }
     }
 
     private void HandleSprintInput()
