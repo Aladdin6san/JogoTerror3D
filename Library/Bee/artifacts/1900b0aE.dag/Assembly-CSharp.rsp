@@ -362,6 +362,7 @@
 "Assets/Scripts/Enemy.cs"
 "Assets/Scripts/FP.cs"
 "Assets/Scripts/Item.cs"
+"Assets/Scripts/Menu.cs"
 "Assets/Scripts/Minigame.cs"
 "Assets/Scripts/PlayerMove.cs"
 "Assets/Scripts/TakeBullet.cs"

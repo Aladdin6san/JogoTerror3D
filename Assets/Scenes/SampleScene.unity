@@ -3624,7 +3624,7 @@ CapsuleCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -3712,6 +3712,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1116469627}
   agent: {fileID: 1396566106}
+  GameOver: GameOver
 --- !u!195 &1396566106
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -3726,7 +3727,7 @@ NavMeshAgent:
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
-  m_StoppingDistance: 2
+  m_StoppingDistance: 0
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
   m_AutoRepath: 1

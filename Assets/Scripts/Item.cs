@@ -69,4 +69,10 @@ public class Item : MonoBehaviour
     {
         texto.text = contador + " / " + Maxcontador;
     }
+
+    public static void ResetarItens()
+    {
+        contador = 0;
+    }
+
 }
