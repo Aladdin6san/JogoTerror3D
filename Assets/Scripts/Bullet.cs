@@ -20,7 +20,7 @@ public class Bullet : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("Bala"))
+        if (other.gameObject.CompareTag("Tiro"))
         {
             Destroy(other.gameObject);
             StartCoroutine(PauseEnemySpeed(3f));

@@ -16,6 +16,7 @@ public class Tiro : MonoBehaviour
     public float delayTiro = 4f;
 
     private GameObject balaNaCena; // Referência para o objeto coletável na cena
+    public GameObject E;
 
     private void Start()
     {
@@ -33,6 +34,7 @@ public class Tiro : MonoBehaviour
         {
             podeColetar = true;
             balaNaCena = other.gameObject; // Guarda a referência para o objeto coletável
+            E.SetActive(true);
         }
     }
 
@@ -42,6 +44,7 @@ public class Tiro : MonoBehaviour
         {
             podeColetar = false;
             balaNaCena = null; // Remove a referência quando sai da área da bala
+            E.SetActive(false);
         }
     }
 
@@ -55,12 +58,14 @@ public class Tiro : MonoBehaviour
                 Destroy(balaNaCena); // Destroi o objeto coletável da cena
                 municao++;
                 AtualizarTexto();
+                E.SetActive(false);
             }
         }
 
         // Disparar a bala
         if (Input.GetKeyDown(KeyCode.Mouse0) && municao > 0 && Time.time >= tempoProximoTiro)
         {
+
             municao--;
             AtualizarTexto();
 

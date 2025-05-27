@@ -8,6 +8,7 @@ TagManager:
   - Item
   - Bala
   - Enemy
+  - Tiro
   layers:
   - Default
   - TransparentFX
