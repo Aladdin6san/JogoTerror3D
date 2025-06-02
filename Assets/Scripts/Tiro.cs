@@ -50,20 +50,23 @@ public class Tiro : MonoBehaviour
 
     private void Update()
     {
-        // Coletar a bala
         if (podeColetar && Input.GetKeyDown(KeyCode.E))
         {
-            if (balaNaCena != null) // Verifica se tem uma bala para coletar
+            if (balaNaCena != null && balaNaCena.activeSelf) // Verifica se a bala ainda está ativa
             {
-                Destroy(balaNaCena); // Destroi o objeto coletável da cena
+                balaNaCena.SetActive(false); // Desativa o objeto coletável da cena
                 municao++;
                 AtualizarTexto();
                 E.SetActive(false);
+
+                // Resetar variáveis para evitar múltiplas coletas
+                balaNaCena = null;
+                podeColetar = false;
             }
         }
 
         // Disparar a bala
-        if (Input.GetKeyDown(KeyCode.Mouse0) && municao > 0 && Time.time >= tempoProximoTiro)
+        if (Input.GetKeyDown(KeyCode.F) && municao > 0 && Time.time >= tempoProximoTiro)
         {
 
             municao--;
@@ -78,4 +81,16 @@ public class Tiro : MonoBehaviour
             tempoProximoTiro = Time.time + delayTiro;
         }
     }
+
+    public int ObterMunicao()
+    {
+        return municao;
+    }
+
+    public void DefinirMunicao(int valor)
+    {
+        municao = valor;
+        AtualizarTexto();
+    }
+
 }
