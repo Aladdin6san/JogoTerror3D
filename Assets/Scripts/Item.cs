@@ -18,6 +18,11 @@ public class Item : MonoBehaviour
     public delegate void ItensColetadosAction(int quantidade);
     public static event ItensColetadosAction OnItensColetados;
 
+    public AudioSource audioForaFaixa;  // Som padrão, toca enquanto está fora da faixa
+    public AudioSource audioDentroFaixa; // Som que toca quando dentro da faixa
+    public GameObject objetoSomForaFaixa;
+    public GameObject objetoSomDentroFaixa;
+
     void Start()
     {
         AtualizarTexto();
