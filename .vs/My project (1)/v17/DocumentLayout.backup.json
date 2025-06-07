@@ -3,28 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Aladdin Kuroshii\\Documents\\My project (1)\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|c:\\users\\aladdin kuroshii\\documents\\my project (1)\\assets\\scripts\\caixa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\caixa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|c:\\users\\aladdin kuroshii\\documents\\my project (1)\\assets\\scripts\\scenestatemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scenestatemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|C:\\Users\\Aladdin Kuroshii\\Documents\\My project (1)\\assets\\scripts\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|C:\\Users\\Aladdin Kuroshii\\Documents\\My project (1)\\assets\\scripts\\tiro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tiro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|c:\\users\\aladdin kuroshii\\documents\\my project (1)\\assets\\scripts\\saida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\saida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|C:\\Users\\Aladdin Kuroshii\\Documents\\My project (1)\\assets\\scripts\\minigame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\minigame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|C:\\Users\\Aladdin Kuroshii\\Documents\\My project (1)\\assets\\scripts\\scenestatemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scenestatemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|c:\\users\\aladdin kuroshii\\documents\\my project (1)\\assets\\scripts\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|C:\\Users\\Aladdin Kuroshii\\Documents\\My project (1)\\assets\\scripts\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|C:\\Users\\Aladdin Kuroshii\\Documents\\My project (1)\\assets\\scripts\\caixa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\caixa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|C:\\Users\\Aladdin Kuroshii\\Documents\\My project (1)\\assets\\scripts\\tiro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tiro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|C:\\Users\\Aladdin Kuroshii\\Documents\\My project (1)\\assets\\scripts\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -59,6 +63,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Saida.cs",
+              "DocumentMoniker": "C:\\Users\\Aladdin Kuroshii\\Documents\\My project (1)\\Assets\\Scripts\\Saida.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Saida.cs",
+              "ToolTip": "C:\\Users\\Aladdin Kuroshii\\Documents\\My project (1)\\Assets\\Scripts\\Saida.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Saida.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T18:43:00.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Caixa.cs",
               "DocumentMoniker": "C:\\Users\\Aladdin Kuroshii\\Documents\\My project (1)\\Assets\\Scripts\\Caixa.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Caixa.cs",
@@ -66,12 +83,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Caixa.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T18:43:44.436Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-04T18:43:44.436Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Tiro.cs",
               "DocumentMoniker": "C:\\Users\\Aladdin Kuroshii\\Documents\\My project (1)\\Assets\\Scripts\\Tiro.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Tiro.cs",
@@ -83,44 +99,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "SceneStateManager.cs",
               "DocumentMoniker": "C:\\Users\\Aladdin Kuroshii\\Documents\\My project (1)\\Assets\\Scripts\\SceneStateManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SceneStateManager.cs",
               "ToolTip": "C:\\Users\\Aladdin Kuroshii\\Documents\\My project (1)\\Assets\\Scripts\\SceneStateManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\SceneStateManager.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAwwCYAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowDMAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-02T16:02:18.472Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Menu.cs",
               "DocumentMoniker": "C:\\Users\\Aladdin Kuroshii\\Documents\\My project (1)\\Assets\\Scripts\\Menu.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Menu.cs",
               "ToolTip": "C:\\Users\\Aladdin Kuroshii\\Documents\\My project (1)\\Assets\\Scripts\\Menu.cs",
               "RelativeToolTip": "Assets\\Scripts\\Menu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T16:47:47.341Z"
+              "WhenOpened": "2025-05-20T16:47:47.341Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Minigame.cs",
               "DocumentMoniker": "C:\\Users\\Aladdin Kuroshii\\Documents\\My project (1)\\Assets\\Scripts\\Minigame.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Minigame.cs",
               "ToolTip": "C:\\Users\\Aladdin Kuroshii\\Documents\\My project (1)\\Assets\\Scripts\\Minigame.cs",
               "RelativeToolTip": "Assets\\Scripts\\Minigame.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAmwE8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwB4AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T15:50:47.472Z"
+              "WhenOpened": "2025-05-09T15:50:47.472Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Bullet.cs",
               "DocumentMoniker": "C:\\Users\\Aladdin Kuroshii\\Documents\\My project (1)\\Assets\\Scripts\\Bullet.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Bullet.cs",
@@ -132,19 +150,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Item.cs",
               "DocumentMoniker": "C:\\Users\\Aladdin Kuroshii\\Documents\\My project (1)\\Assets\\Scripts\\Item.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Item.cs",
               "ToolTip": "C:\\Users\\Aladdin Kuroshii\\Documents\\My project (1)\\Assets\\Scripts\\Item.cs",
               "RelativeToolTip": "Assets\\Scripts\\Item.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAmwGkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T18:42:35.037Z"
+              "WhenOpened": "2025-03-31T18:42:35.037Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "FP.cs",
               "DocumentMoniker": "C:\\Users\\Aladdin Kuroshii\\Documents\\My project (1)\\Assets\\Scripts\\FP.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\FP.cs",
@@ -156,7 +175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Void.cs",
               "DocumentMoniker": "C:\\Users\\Aladdin Kuroshii\\Documents\\My project (1)\\Assets\\Scripts\\Void.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Void.cs",
@@ -168,7 +187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Enemy.cs",
               "DocumentMoniker": "C:\\Users\\Aladdin Kuroshii\\Documents\\My project (1)\\Assets\\Scripts\\Enemy.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy.cs",
@@ -180,7 +199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "PlayerMove.cs",
               "DocumentMoniker": "C:\\Users\\Aladdin Kuroshii\\Documents\\My project (1)\\Assets\\Scripts\\PlayerMove.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMove.cs",

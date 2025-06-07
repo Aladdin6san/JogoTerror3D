@@ -42,6 +42,12 @@ public class SceneStateManager : MonoBehaviour
             return; // evita executar o restante
         }
 
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            SalvarEstado();
+            return;
+        }
+
         // Salvar apenas uma vez ao alcançar o sexto item
         if (Item.ObterContador() == 6 && !jaSalvou)
         {

@@ -43,6 +43,7 @@ public class MinigameController : MonoBehaviour
     void Update()
     {
         if (!minigameAtivo) return;
+        scrollbar.value = Mathf.Round(scrollbar.value * 10f) / 10f;
 
         float distancia = Mathf.Abs(scrollbar.value - valorAlvo);
         bool dentro = distancia < TOLERANCIA;

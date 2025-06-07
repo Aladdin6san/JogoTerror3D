@@ -366,6 +366,7 @@
 "Assets/Scripts/Menu.cs"
 "Assets/Scripts/Minigame.cs"
 "Assets/Scripts/PlayerMove.cs"
+"Assets/Scripts/Saida.cs"
 "Assets/Scripts/SceneStateManager.cs"
 "Assets/Scripts/Tiro.cs"
 "Assets/Scripts/Void.cs"
