@@ -21,7 +21,9 @@ public class FP : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Time.timeScale == 0f)
+            return;
+
         float inputX = Input.GetAxis("Mouse X")*mouse;
         float inputY = Input.GetAxis("Mouse Y") * mouse;
 

@@ -19,6 +19,9 @@ public class PlayerMove : MonoBehaviour
     private Coroutine staminaCoroutine;
     private bool canSprint = true;
 
+    public GameObject controle;
+    private bool ligar;
+
     void Start()
     {
         rb = GetComponent<Rigidbody>();
@@ -35,6 +38,27 @@ public class PlayerMove : MonoBehaviour
 
         transform.Translate(Vector3.forward * Time.deltaTime * speed * foward);
         transform.Translate(Vector3.right * Time.deltaTime * speed * horizontal);
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            ligar = !ligar;
+            controle.SetActive(ligar);
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+
+            if (ligar == false)
+            {
+                Cursor.visible = false;
+                Cursor.lockState = CursorLockMode.Locked;
+            }
+
+            if (ligar)
+                Time.timeScale = 0f; // pausa o jogo
+            else
+                Time.timeScale = 1f; // retoma o jogo
+        }
+
+
 
     }
 
