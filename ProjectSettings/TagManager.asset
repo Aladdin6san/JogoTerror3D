@@ -9,6 +9,7 @@ TagManager:
   - Bala
   - Enemy
   - Tiro
+  - Wall
   layers:
   - Default
   - TransparentFX

@@ -8,7 +8,6 @@ using UnityEngine.UI;
 public class PlayerMove : MonoBehaviour
 {
     public float speed = 5.0f;
-    public float jump = 5.0f;
     private float horizontal;
     private float foward;
     private Rigidbody rb;
@@ -128,5 +127,4 @@ public class PlayerMove : MonoBehaviour
             speed = 5.0f;
         }
     }
-
 }
