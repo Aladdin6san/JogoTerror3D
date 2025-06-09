@@ -93,6 +93,9 @@ ScriptsOnlyBuild:
     fullTypeName: Menu
     methodName: MudarCena
   - assembly: Assembly-CSharp
+    fullTypeName: Menu
+    methodName: fechar
+  - assembly: Assembly-CSharp
     fullTypeName: TutorialControlador
     methodName: QuitToMenu
   - assembly: Assembly-CSharp
