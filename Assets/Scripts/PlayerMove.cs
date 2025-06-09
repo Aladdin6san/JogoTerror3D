@@ -127,4 +127,67 @@ public class PlayerMove : MonoBehaviour
             speed = 5.0f;
         }
     }
+
+    void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Wall"))
+        {
+            // Impede sprint
+            canSprint = false;
+
+            // Se estiver correndo, para imediatamente
+            if (isSprinting)
+            {
+                isSprinting = false;
+                speed = 3.0f;
+
+                // Para de gastar stamina
+                if (staminaCoroutine != null)
+                    StopCoroutine(staminaCoroutine);
+
+                // Começa a recuperar stamina
+                staminaCoroutine = StartCoroutine(RecoverStamina());
+            }
+        }
+    }
+
+    private void OnCollisionStay(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Wall"))
+        {
+            // Impede sprint
+            canSprint = false;
+
+            // Se estiver correndo, para imediatamente
+            if (isSprinting)
+            {
+                isSprinting = false;
+                speed = 3.0f;
+
+                // Para de gastar stamina
+                if (staminaCoroutine != null)
+                    StopCoroutine(staminaCoroutine);
+
+                // Começa a recuperar stamina
+                staminaCoroutine = StartCoroutine(RecoverStamina());
+            }
+        }
+    }
+
+    void OnCollisionExit(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Wall"))
+        {
+            // Permite sprint de novo ao sair da colisão com a parede
+            canSprint = true;
+
+            // Restaura velocidade padrão (caso não esteja sprintando)
+            if (!isSprinting)
+            {
+                speed = 5.0f;
+            }
+        }
+    }
+
+
 }
