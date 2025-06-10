@@ -22,6 +22,9 @@ public class PlayerMove : MonoBehaviour
     private bool ligar;
 
     public GameObject bloqueadorDePause;
+    public GameObject Terminar;
+    private bool textoJaMostrado = false;
+
 
 
     void Start()
@@ -60,6 +63,12 @@ public class PlayerMove : MonoBehaviour
                 Time.timeScale = 1f; // retoma o jogo
         }
 
+
+        if(Item.ObterContador()==7 && !textoJaMostrado)
+        {
+            textoJaMostrado = true; 
+            StartCoroutine(sumir());
+        }
 
     }
 
@@ -191,5 +200,10 @@ public class PlayerMove : MonoBehaviour
         }
     }
 
-
+    private IEnumerator sumir()
+    {
+        Terminar.SetActive(true);
+        yield return new WaitForSeconds(3);
+        Terminar.SetActive(false);
+    }
 }

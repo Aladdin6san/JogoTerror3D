@@ -1,447 +1,347 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1749589877668162, "dur":1197, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1749589877669367, "dur":84, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1749589877669477, "dur":292, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1749589877669784, "dur":3015, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1749589877672801, "dur":120456, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1749589877793258, "dur":260, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1749589877793548, "dur":76, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1749589877793723, "dur":949, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1749589877670007, "dur":2798, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1749589877672807, "dur":3958, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1749589877676785, "dur":636, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1749589877677425, "dur":60, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1749589877677490, "dur":125, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":1, "ts":1749589877677773, "dur":478, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Aladdin Kuroshii\\Documents\\My project (1)\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":1, "ts":1749589877678251, "dur":56, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Aladdin Kuroshii\\Documents\\My project (1)\\Library\\Bee\\PlayerScriptAssemblies\\Unity.AI.Navigation.dll" }}
-,{ "pid":12345, "tid":1, "ts":1749589877678349, "dur":154, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Aladdin Kuroshii\\Documents\\My project (1)\\Library\\Bee\\PlayerScriptAssemblies\\Unity.ProBuilder.dll" }}
-,{ "pid":12345, "tid":1, "ts":1749589877678504, "dur":216, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Aladdin Kuroshii\\Documents\\My project (1)\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":1, "ts":1749589877678720, "dur":250, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Aladdin Kuroshii\\Documents\\My project (1)\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":1, "ts":1749589877678971, "dur":72, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Aladdin Kuroshii\\Documents\\My project (1)\\Library\\Bee\\PlayerScriptAssemblies\\Unity.ProBuilder.Csg.dll" }}
-,{ "pid":12345, "tid":1, "ts":1749589877679044, "dur":162, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Aladdin Kuroshii\\Documents\\My project (1)\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":1, "ts":1749589877679206, "dur":75, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Aladdin Kuroshii\\Documents\\My project (1)\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":1, "ts":1749589877679371, "dur":207, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Aladdin Kuroshii\\Documents\\My project (1)\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":1, "ts":1749589877679580, "dur":135, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Aladdin Kuroshii\\Documents\\My project (1)\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":1, "ts":1749589877679717, "dur":257, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Aladdin Kuroshii\\Documents\\My project (1)\\Library\\Bee\\PlayerScriptAssemblies\\Cinemachine.dll" }}
-,{ "pid":12345, "tid":1, "ts":1749589877677424, "dur":2623, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1749589877680446, "dur":108579, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1749589877792021, "dur":484, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1749589877792020, "dur":486, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1749589877792521, "dur":693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/boot.config" }}
-,{ "pid":12345, "tid":2, "ts":1749589877670156, "dur":3047, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1749589877673205, "dur":997, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1749589877674203, "dur":2858, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1749589877677067, "dur":66, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.6f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
-,{ "pid":12345, "tid":2, "ts":1749589877677063, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aladdin Kuroshii/Downloads/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":2, "ts":1749589877677134, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1749589877685526, "dur":2317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":2, "ts":1749589877687872, "dur":755, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1749589877688630, "dur":3674, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1749589877692307, "dur":6971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":2, "ts":1749589877699526, "dur":376, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1749589877699913, "dur":3614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":2, "ts":1749589877704340, "dur":259, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1749589877704607, "dur":3237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1749589877707940, "dur":216, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1749589877708174, "dur":4624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1749589877712833, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1749589877712936, "dur":2874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1749589877715840, "dur":134, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1749589877715984, "dur":2439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1749589877718455, "dur":1096, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1749589877719574, "dur":11656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":2, "ts":1749589877731253, "dur":61998, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1749589877670072, "dur":2753, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1749589877672827, "dur":1301, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1749589877674129, "dur":3004, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1749589877677144, "dur":303, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.6f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
-,{ "pid":12345, "tid":3, "ts":1749589877677135, "dur":363, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aladdin Kuroshii/Downloads/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":3, "ts":1749589877677499, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1749589877688770, "dur":3520, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1749589877685268, "dur":7041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":3, "ts":1749589877692420, "dur":240, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1749589877692667, "dur":188, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1749589877692858, "dur":9097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":3, "ts":1749589877702047, "dur":358, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1749589877702412, "dur":359, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1749589877702774, "dur":3473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":3, "ts":1749589877706315, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1749589877706421, "dur":4849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1749589877711363, "dur":246, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1749589877711627, "dur":3661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1749589877715330, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1749589877715407, "dur":3037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1749589877718474, "dur":1089, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1749589877719581, "dur":9305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":3, "ts":1749589877728996, "dur":1050, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1749589877730068, "dur":2427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/globalgamemanagers.assets.resS" }}
-,{ "pid":12345, "tid":3, "ts":1749589877732516, "dur":60748, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1749589877670035, "dur":2775, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1749589877672817, "dur":693, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1749589877673510, "dur":3260, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1749589877676788, "dur":128, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.6f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
-,{ "pid":12345, "tid":4, "ts":1749589877676774, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aladdin Kuroshii/Downloads/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":4, "ts":1749589877676918, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1749589877684682, "dur":1478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":4, "ts":1749589877686226, "dur":115, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.6f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":4, "ts":1749589877686225, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aladdin Kuroshii/Downloads/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":4, "ts":1749589877686343, "dur":282, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1749589877699630, "dur":117, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1749589877686771, "dur":12986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":4, "ts":1749589877699902, "dur":550, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1749589877700472, "dur":4180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
-,{ "pid":12345, "tid":4, "ts":1749589877704790, "dur":138, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1749589877704967, "dur":4385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1749589877709416, "dur":241, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1749589877709676, "dur":4083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1749589877713827, "dur":171, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1749589877714021, "dur":3195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1749589877717242, "dur":176, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1749589877717436, "dur":12405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1749589877729903, "dur":63339, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1749589877670062, "dur":2758, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1749589877672822, "dur":1575, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1749589877674397, "dur":2620, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1749589877677020, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aladdin Kuroshii/Downloads/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":5, "ts":1749589877677124, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1749589877688579, "dur":3907, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1749589877685987, "dur":6509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":5, "ts":1749589877692587, "dur":169, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1749589877692809, "dur":9496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":5, "ts":1749589877702379, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":5, "ts":1749589877702521, "dur":431, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1749589877702955, "dur":3390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":5, "ts":1749589877706397, "dur":343, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1749589877706758, "dur":5036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1749589877712064, "dur":425, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1749589877712511, "dur":3654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.PropertiesModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1749589877716214, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1749589877716317, "dur":5953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1749589877722311, "dur":2271, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1749589877724625, "dur":6513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":5, "ts":1749589877731178, "dur":62074, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1749589877670095, "dur":2736, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1749589877672833, "dur":1464, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1749589877674297, "dur":2740, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1749589877677039, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aladdin Kuroshii/Downloads/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":6, "ts":1749589877677150, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1749589877688833, "dur":3433, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1749589877686784, "dur":5493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":6, "ts":1749589877692409, "dur":250, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1749589877692684, "dur":6371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":6, "ts":1749589877699309, "dur":381, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1749589877699697, "dur":78, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1749589877704086, "dur":51, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1749589877699778, "dur":4459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/Cinemachine.dll" }}
-,{ "pid":12345, "tid":6, "ts":1749589877704317, "dur":141, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1749589877704477, "dur":3389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1749589877707938, "dur":242, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1749589877708199, "dur":5331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1749589877713602, "dur":396, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1749589877714017, "dur":3111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1749589877717178, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1749589877729436, "dur":95, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1749589877717296, "dur":12259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1749589877729596, "dur":561, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1749589877730181, "dur":1589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":6, "ts":1749589877731793, "dur":61489, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1749589877670128, "dur":2741, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1749589877673013, "dur":709, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.6f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1749589877672871, "dur":1595, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1749589877674466, "dur":2546, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1749589877677025, "dur":115, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.6f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
-,{ "pid":12345, "tid":7, "ts":1749589877677015, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aladdin Kuroshii/Downloads/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":7, "ts":1749589877677142, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1749589877688585, "dur":3884, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1749589877686050, "dur":6428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":7, "ts":1749589877692578, "dur":141, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1749589877702374, "dur":389, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1749589877692779, "dur":10079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":7, "ts":1749589877702936, "dur":176, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1749589877703130, "dur":3525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":7, "ts":1749589877706716, "dur":194, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1749589877706948, "dur":5060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1749589877712093, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1749589877712225, "dur":3659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1749589877715908, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1749589877715991, "dur":6244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1749589877722291, "dur":2292, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1749589877724621, "dur":5692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":7, "ts":1749589877730415, "dur":62847, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1749589877670145, "dur":2905, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1749589877673052, "dur":1229, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1749589877674281, "dur":2849, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1749589877677131, "dur":222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aladdin Kuroshii/Downloads/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":8, "ts":1749589877684617, "dur":3205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":8, "ts":1749589877687849, "dur":795, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1749589877688647, "dur":3694, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1749589877692343, "dur":7634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":8, "ts":1749589877700034, "dur":155, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1749589877700194, "dur":4058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":8, "ts":1749589877704289, "dur":266, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1749589877704564, "dur":3507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1749589877708095, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1749589877708213, "dur":4845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1749589877713087, "dur":332, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1749589877713427, "dur":3084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1749589877716546, "dur":165, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1749589877716721, "dur":10847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1749589877727597, "dur":1030, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1749589877728639, "dur":2958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/level1" }}
-,{ "pid":12345, "tid":8, "ts":1749589877731617, "dur":61643, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1749589877670167, "dur":3163, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1749589877673332, "dur":1360, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1749589877674692, "dur":2316, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1749589877677010, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aladdin Kuroshii/Downloads/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":9, "ts":1749589877677068, "dur":119, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1749589877685853, "dur":2461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":9, "ts":1749589877688464, "dur":297, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1749589877688764, "dur":3486, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1749589877692253, "dur":5246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":9, "ts":1749589877698327, "dur":81, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.6f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\Facades\\netstandard.dll" }}
-,{ "pid":12345, "tid":9, "ts":1749589877698327, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":9, "ts":1749589877698410, "dur":690, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1749589877699111, "dur":5936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":9, "ts":1749589877705073, "dur":210, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1749589877705291, "dur":4830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1749589877710153, "dur":413, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1749589877710576, "dur":4348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1749589877714955, "dur":143, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1749589877715106, "dur":2566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1749589877717700, "dur":60, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.6f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
-,{ "pid":12345, "tid":9, "ts":1749589877717700, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aladdin Kuroshii/Downloads/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":9, "ts":1749589877717792, "dur":26640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":9, "ts":1749589877744459, "dur":48796, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1749589877670203, "dur":3264, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1749589877673469, "dur":83, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1749589877673552, "dur":3407, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1749589877676959, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aladdin Kuroshii/Downloads/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":10, "ts":1749589877677042, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1749589877684052, "dur":3132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":10, "ts":1749589877687207, "dur":1456, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1749589877688666, "dur":3695, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1749589877692362, "dur":8066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":10, "ts":1749589877700452, "dur":416, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1749589877700878, "dur":3836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/Unity.ProBuilder.Csg.dll" }}
-,{ "pid":12345, "tid":10, "ts":1749589877704761, "dur":159, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1749589877704928, "dur":3861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1749589877708813, "dur":561, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1749589877709383, "dur":4403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1749589877713814, "dur":391, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1749589877714222, "dur":2867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1749589877717133, "dur":133, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1749589877717275, "dur":11273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1749589877728596, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1749589877728717, "dur":2679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/level0" }}
-,{ "pid":12345, "tid":10, "ts":1749589877731426, "dur":61822, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1749589877670230, "dur":3412, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1749589877673642, "dur":3318, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1749589877676970, "dur":110, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.6f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
-,{ "pid":12345, "tid":11, "ts":1749589877676961, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aladdin Kuroshii/Downloads/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":11, "ts":1749589877677082, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1749589877688433, "dur":2620, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1749589877686000, "dur":5062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":11, "ts":1749589877691246, "dur":4634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":11, "ts":1749589877695980, "dur":123, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1749589877702448, "dur":498, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1749589877696112, "dur":6840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":11, "ts":1749589877703010, "dur":249, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1749589877703269, "dur":4282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1749589877707593, "dur":158, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1749589877707760, "dur":6079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1749589877713865, "dur":323, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1749589877714197, "dur":2588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1749589877716823, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1749589877716914, "dur":11600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1749589877728566, "dur":146, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1749589877728719, "dur":2752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/level0.resS" }}
-,{ "pid":12345, "tid":11, "ts":1749589877731502, "dur":61755, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1749589877670247, "dur":3438, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1749589877673685, "dur":3083, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1749589877676789, "dur":135, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.6f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":12, "ts":1749589877676774, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aladdin Kuroshii/Downloads/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":12, "ts":1749589877676926, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1749589877679193, "dur":8567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":12, "ts":1749589877687891, "dur":708, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1749589877688612, "dur":3687, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1749589877699695, "dur":89, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1749589877692300, "dur":7489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":12, "ts":1749589877699841, "dur":297, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1749589877700146, "dur":5266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
-,{ "pid":12345, "tid":12, "ts":1749589877705439, "dur":151, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1749589877705655, "dur":4153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1749589877709835, "dur":118, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1749589877709961, "dur":4503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1749589877714546, "dur":2898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1749589877717489, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1749589877717600, "dur":11958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1749589877729620, "dur":63636, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1749589877670269, "dur":3507, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1749589877673776, "dur":2995, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1749589877676774, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aladdin Kuroshii/Downloads/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":13, "ts":1749589877678163, "dur":7195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":13, "ts":1749589877685386, "dur":160, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.6f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":13, "ts":1749589877685385, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aladdin Kuroshii/Downloads/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":13, "ts":1749589877685679, "dur":2507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":13, "ts":1749589877688220, "dur":358, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1749589877688584, "dur":3805, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1749589877692390, "dur":9919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":13, "ts":1749589877702335, "dur":256, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1749589877702595, "dur":330, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1749589877705638, "dur":253, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1749589877702927, "dur":3003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/Unity.AI.Navigation.dll" }}
-,{ "pid":12345, "tid":13, "ts":1749589877705956, "dur":118, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1749589877706082, "dur":4822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1749589877710940, "dur":119, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1749589877711067, "dur":4021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1749589877715129, "dur":246, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1749589877715393, "dur":2841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1749589877718262, "dur":1288, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1749589877719572, "dur":7780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/sharedassets1.resource" }}
-,{ "pid":12345, "tid":13, "ts":1749589877727423, "dur":1204, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1749589877728635, "dur":2753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/level2.resS" }}
-,{ "pid":12345, "tid":13, "ts":1749589877731417, "dur":61827, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1749589877670305, "dur":3474, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1749589877673780, "dur":3485, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1749589877677266, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aladdin Kuroshii/Downloads/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":14, "ts":1749589877677372, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1749589877683974, "dur":2241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":14, "ts":1749589877688307, "dur":4089, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1749589877686304, "dur":6103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1).exe" }}
-,{ "pid":12345, "tid":14, "ts":1749589877692452, "dur":437, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1749589877692910, "dur":9272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":14, "ts":1749589877702210, "dur":215, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1749589877702432, "dur":394, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1749589877706152, "dur":77, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1749589877702829, "dur":3439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/Unity.ProBuilder.dll" }}
-,{ "pid":12345, "tid":14, "ts":1749589877706359, "dur":382, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1749589877706751, "dur":6075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1749589877712920, "dur":208, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1749589877713146, "dur":3151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1749589877716332, "dur":125, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1749589877716474, "dur":9478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1749589877725989, "dur":524, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1749589877726523, "dur":4269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/resources.assets" }}
-,{ "pid":12345, "tid":14, "ts":1749589877730818, "dur":62427, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1749589877670330, "dur":3457, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1749589877673788, "dur":3391, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1749589877677182, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aladdin Kuroshii/Downloads/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":15, "ts":1749589877688021, "dur":70, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1749589877685644, "dur":2457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":15, "ts":1749589877688259, "dur":336, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1749589877688615, "dur":3699, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1749589877698331, "dur":53, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1749589877692318, "dur":6079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":15, "ts":1749589877698534, "dur":285, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1749589877698889, "dur":4642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":15, "ts":1749589877703701, "dur":167, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1749589877703886, "dur":3497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1749589877707449, "dur":190, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1749589877707654, "dur":4661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1749589877712388, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1749589877712807, "dur":3810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1749589877716642, "dur":149, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1749589877716817, "dur":12462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1749589877729313, "dur":843, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1749589877730176, "dur":1699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":15, "ts":1749589877731894, "dur":61385, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1749589877670355, "dur":3486, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1749589877673841, "dur":2926, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1749589877677800, "dur":1669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/app.info" }}
-,{ "pid":12345, "tid":16, "ts":1749589877679516, "dur":4609, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1749589877684491, "dur":2365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":16, "ts":1749589877686896, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":16, "ts":1749589877688983, "dur":7010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":16, "ts":1749589877696026, "dur":153, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1749589877696197, "dur":7231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":16, "ts":1749589877703455, "dur":124, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1749589877703587, "dur":4965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1749589877708584, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1749589877708673, "dur":5942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1749589877714666, "dur":163, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1749589877714841, "dur":2710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1749589877717745, "dur":6948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/sharedassets3.assets" }}
-,{ "pid":12345, "tid":16, "ts":1749589877724784, "dur":2677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":16, "ts":1749589877727495, "dur":852, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1749589877728368, "dur":2409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/level2" }}
-,{ "pid":12345, "tid":16, "ts":1749589877730804, "dur":62443, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1749589877670387, "dur":3556, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1749589877673943, "dur":3320, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1749589877684194, "dur":2902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":17, "ts":1749589877687123, "dur":1572, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1749589877688697, "dur":3672, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1749589877692371, "dur":7608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":17, "ts":1749589877700061, "dur":151, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1749589877700217, "dur":4937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":17, "ts":1749589877705176, "dur":208, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1749589877705393, "dur":5988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":17, "ts":1749589877711420, "dur":288, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1749589877711719, "dur":4105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":17, "ts":1749589877715865, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1749589877715976, "dur":3738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":17, "ts":1749589877719748, "dur":2053, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1749589877721823, "dur":4939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":17, "ts":1749589877726798, "dur":227, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1749589877727040, "dur":3598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/level3.resS" }}
-,{ "pid":12345, "tid":17, "ts":1749589877730668, "dur":62581, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1749589877670413, "dur":3537, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1749589877673950, "dur":3252, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1749589877684090, "dur":3003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":18, "ts":1749589877687124, "dur":1589, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1749589877688716, "dur":3663, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1749589877692381, "dur":8807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":18, "ts":1749589877701303, "dur":209, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1749589877701521, "dur":3521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":18, "ts":1749589877705067, "dur":253, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1749589877705330, "dur":4533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":18, "ts":1749589877709907, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1749589877710008, "dur":4551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":18, "ts":1749589877714593, "dur":266, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1749589877714869, "dur":2798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":18, "ts":1749589877717698, "dur":169, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1749589877717875, "dur":11685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":18, "ts":1749589877729632, "dur":63623, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1749589877670433, "dur":3524, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1749589877673957, "dur":3239, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1749589877677197, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aladdin Kuroshii/Downloads/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":19, "ts":1749589877684150, "dur":3099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":19, "ts":1749589877687270, "dur":1391, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1749589877688667, "dur":3686, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1749589877692355, "dur":7029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":19, "ts":1749589877699427, "dur":232, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1749589877699664, "dur":102, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1749589877699768, "dur":4227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":19, "ts":1749589877704020, "dur":148, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1749589877704186, "dur":3186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":19, "ts":1749589877707400, "dur":225, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1749589877707634, "dur":5685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":19, "ts":1749589877713351, "dur":232, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1749589877713600, "dur":2836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":19, "ts":1749589877716464, "dur":197, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1749589877716671, "dur":9188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":19, "ts":1749589877725905, "dur":508, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1749589877726430, "dur":4647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":19, "ts":1749589877731181, "dur":62059, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":20, "ts":1749589877670449, "dur":3642, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":20, "ts":1749589877674091, "dur":3085, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":20, "ts":1749589877677177, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aladdin Kuroshii/Downloads/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":20, "ts":1749589877688055, "dur":3735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":20, "ts":1749589877691865, "dur":2492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":20, "ts":1749589877694489, "dur":638, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":20, "ts":1749589877695202, "dur":7052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":20, "ts":1749589877702281, "dur":186, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":20, "ts":1749589877702471, "dur":398, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":20, "ts":1749589877702882, "dur":2885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/Unity.ProBuilder.Stl.dll" }}
-,{ "pid":12345, "tid":20, "ts":1749589877705854, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":20, "ts":1749589877705936, "dur":5027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":20, "ts":1749589877710994, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":20, "ts":1749589877711132, "dur":3931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":20, "ts":1749589877715098, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":20, "ts":1749589877715163, "dur":2847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":20, "ts":1749589877718086, "dur":6839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/sharedassets2.assets" }}
-,{ "pid":12345, "tid":20, "ts":1749589877725546, "dur":1814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":20, "ts":1749589877727397, "dur":1197, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":20, "ts":1749589877728604, "dur":2930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/level3" }}
-,{ "pid":12345, "tid":20, "ts":1749589877731559, "dur":61699, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1749589877796349, "dur":856, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid":12345, "tid":0, "ts":1749593093938113, "dur":1322, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1749593093939442, "dur":73, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1749593093939548, "dur":326, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1749593093939887, "dur":2320, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1749593093942208, "dur":120174, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1749593094062383, "dur":202, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1749593094062585, "dur":58, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1749593094062831, "dur":813, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1749593093940105, "dur":2107, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1749593093942214, "dur":4227, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1749593093946507, "dur":91, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1749593093946788, "dur":290, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Aladdin Kuroshii\\Documents\\My project (1)\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1749593093947166, "dur":151, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Aladdin Kuroshii\\Documents\\My project (1)\\Library\\Bee\\PlayerScriptAssemblies\\Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":1, "ts":1749593093947317, "dur":215, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Aladdin Kuroshii\\Documents\\My project (1)\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1749593093947533, "dur":117, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Aladdin Kuroshii\\Documents\\My project (1)\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1749593093947688, "dur":150, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Aladdin Kuroshii\\Documents\\My project (1)\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1749593093947838, "dur":74, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Aladdin Kuroshii\\Documents\\My project (1)\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1749593093948001, "dur":154, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Aladdin Kuroshii\\Documents\\My project (1)\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1749593093948199, "dur":142, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Aladdin Kuroshii\\Documents\\My project (1)\\Library\\Bee\\PlayerScriptAssemblies\\Cinemachine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1749593093946506, "dur":1898, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1749593093949028, "dur":108818, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1749593094061180, "dur":519, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1749593094061179, "dur":521, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1749593094061710, "dur":522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1749593094062234, "dur":122, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1749593093940234, "dur":2209, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1749593093942444, "dur":1641, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1749593093944085, "dur":2357, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1749593093946453, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1749593093947304, "dur":1250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1749593093949222, "dur":541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1749593093949877, "dur":1983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1).exe" }}
+,{ "pid":12345, "tid":2, "ts":1749593093954220, "dur":8406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1749593093962663, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1749593093962743, "dur":250, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1749593093962995, "dur":1189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1749593093964279, "dur":1457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1749593093965834, "dur":1171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1749593093967090, "dur":730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":2, "ts":1749593093967892, "dur":1061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1749593093969014, "dur":939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1749593093970057, "dur":63, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1749593093970122, "dur":1140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1749593093971363, "dur":716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1749593093972172, "dur":1379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1749593093973602, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1749593093973664, "dur":1644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1749593093975336, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1749593093975423, "dur":794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1749593093976297, "dur":832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1749593093977167, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1749593093977227, "dur":1037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1749593093978328, "dur":1738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1749593093980118, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1749593093980236, "dur":786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1749593093981052, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1749593093982174, "dur":243, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1749593093981121, "dur":1317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1749593093982520, "dur":956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1749593093983498, "dur":294, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1749593093983801, "dur":1534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1749593093985372, "dur":2872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":2, "ts":1749593093988322, "dur":1743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1749593093990117, "dur":1679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/level0.resS" }}
+,{ "pid":12345, "tid":2, "ts":1749593093991867, "dur":651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1749593093992587, "dur":69798, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1749593093940170, "dur":2061, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1749593093942233, "dur":1569, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1749593093943802, "dur":2645, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1749593093946448, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aladdin Kuroshii/Downloads/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1749593093946565, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1749593093948162, "dur":1264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1749593093949484, "dur":109, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.6f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1749593093949483, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aladdin Kuroshii/Downloads/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1749593093949595, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1749593093949849, "dur":1340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1749593093951524, "dur":10844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1749593093962424, "dur":156, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1749593093962618, "dur":1071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1749593093963808, "dur":2072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1749593093965989, "dur":1160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1749593093967237, "dur":197, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1749593093967473, "dur":1109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":3, "ts":1749593093968692, "dur":1163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":3, "ts":1749593093969959, "dur":1468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1749593093971552, "dur":1254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1749593093972956, "dur":1705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1749593093974788, "dur":1276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1749593093976195, "dur":1187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1749593093977511, "dur":1663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1749593093979285, "dur":1530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1749593093981119, "dur":968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1749593093982200, "dur":233, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1749593093982436, "dur":995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1749593093983461, "dur":188, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1749593093983667, "dur":1402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1749593093985154, "dur":1380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":3, "ts":1749593093986587, "dur":149, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1749593093986750, "dur":1143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1749593093988049, "dur":1027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1749593093989155, "dur":894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/level3" }}
+,{ "pid":12345, "tid":3, "ts":1749593093991926, "dur":58, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1749593093990115, "dur":1876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1749593093992048, "dur":70321, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1749593093940133, "dur":2084, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1749593093942224, "dur":694, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1749593093942918, "dur":55, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1749593093942973, "dur":3687, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1749593093946661, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aladdin Kuroshii/Downloads/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1749593093946765, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1749593093951571, "dur":56, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1749593093950577, "dur":1109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1749593093951892, "dur":2497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1749593093954496, "dur":8696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1749593093963306, "dur":1090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1749593093964450, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1749593093964583, "dur":1403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1749593093966093, "dur":1221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1749593093967365, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1749593093967478, "dur":1234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":4, "ts":1749593093968811, "dur":88, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1749593093968902, "dur":1332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/Unity.AI.Navigation.dll" }}
+,{ "pid":12345, "tid":4, "ts":1749593093970419, "dur":183, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1749593093970637, "dur":1340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1749593093972061, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1749593093972138, "dur":1338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1749593093973567, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1749593093973683, "dur":1577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1749593093975322, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1749593093975434, "dur":1517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1749593093977077, "dur":1146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1749593093978344, "dur":1407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1749593093979827, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1749593093979894, "dur":1567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1749593093981601, "dur":258, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1749593093981879, "dur":1507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1749593093983448, "dur":252, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1749593093983711, "dur":1317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1749593093985092, "dur":88, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.6f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1749593093985091, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aladdin Kuroshii/Downloads/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1749593093985232, "dur":10581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1749593093995839, "dur":66512, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1749593093940163, "dur":2064, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1749593093942229, "dur":1259, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1749593093943488, "dur":3125, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1749593093946614, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aladdin Kuroshii/Downloads/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1749593093946708, "dur":143, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1749593093954863, "dur":481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1749593093955387, "dur":6669, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1749593093962074, "dur":1510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1749593093963641, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1749593093963772, "dur":1560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1749593093965446, "dur":1107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1749593093966656, "dur":1105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1749593093967898, "dur":1977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1749593093970001, "dur":1059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1749593093971193, "dur":984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1749593093972246, "dur":133, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1749593093972398, "dur":1403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1749593093973866, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1749593093973974, "dur":2224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1749593093976323, "dur":1493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1749593093977872, "dur":159, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1749593093978067, "dur":1124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1749593093979307, "dur":1422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1749593093980850, "dur":977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1749593093981933, "dur":1022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1749593093983085, "dur":1396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1749593093984592, "dur":614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1749593093985254, "dur":1007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":5, "ts":1749593093986326, "dur":1275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":5, "ts":1749593093987734, "dur":1553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1749593093989324, "dur":1073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/level2.resS" }}
+,{ "pid":12345, "tid":5, "ts":1749593093990469, "dur":1425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1749593093991950, "dur":70423, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1749593093940195, "dur":2042, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1749593093942239, "dur":1618, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1749593093943857, "dur":2813, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1749593093946671, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aladdin Kuroshii/Downloads/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1749593093946770, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1749593093992054, "dur":711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1749593093992845, "dur":69511, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1749593093940227, "dur":2017, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1749593093942246, "dur":1483, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1749593093943729, "dur":2716, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1749593093946463, "dur":172, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.6f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1749593093946446, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aladdin Kuroshii/Downloads/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1749593093946637, "dur":195, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1749593093949261, "dur":803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1749593093950126, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1749593093950489, "dur":1342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1749593093951956, "dur":2741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":7, "ts":1749593093954756, "dur":7291, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1749593093962067, "dur":1356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1749593093963485, "dur":934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1749593093964478, "dur":145, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1749593093964652, "dur":51, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1749593093964706, "dur":1312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1749593093966143, "dur":1156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1749593093967354, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1749593093967513, "dur":1174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1749593093970054, "dur":50, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1749593093968823, "dur":1290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":7, "ts":1749593093970184, "dur":157, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1749593093970357, "dur":1488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1749593093971980, "dur":1209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1749593093973381, "dur":1698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1749593093975196, "dur":1435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1749593093976894, "dur":1410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1749593093978387, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1749593093978515, "dur":1537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1749593093980134, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1749593093982139, "dur":130, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1749593093980253, "dur":2025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1749593093982362, "dur":261, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1749593093982639, "dur":2160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1749593093985038, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1749593093985181, "dur":1071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1749593093986353, "dur":2062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1749593093988503, "dur":1321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/level3.resS" }}
+,{ "pid":12345, "tid":7, "ts":1749593093989891, "dur":1537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/level2" }}
+,{ "pid":12345, "tid":7, "ts":1749593093991501, "dur":2306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1749593093993862, "dur":68530, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1749593093940272, "dur":2245, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1749593093942518, "dur":1270, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1749593093943789, "dur":2655, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1749593093946461, "dur":120, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.6f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1749593093946446, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aladdin Kuroshii/Downloads/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1749593093946582, "dur":418, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1749593094022392, "dur":1165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1749593094023601, "dur":38751, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1749593093940296, "dur":2491, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1749593093942789, "dur":796, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1749593093943585, "dur":3204, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1749593093946831, "dur":201, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1749593094038136, "dur":780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1749593094038953, "dur":23400, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1749593093940329, "dur":2626, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1749593093942955, "dur":3962, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1749593093946918, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aladdin Kuroshii/Downloads/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1749593093946975, "dur":120, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1749593094061546, "dur":689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1749593094062274, "dur":109, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1749593093940357, "dur":2652, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1749593093943010, "dur":3906, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1749593093946920, "dur":56, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.6f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1749593093946917, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aladdin Kuroshii/Downloads/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1749593093946977, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1749593094039269, "dur":437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1749593094039727, "dur":22622, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1749593093940380, "dur":2792, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1749593093943172, "dur":3702, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1749593093946875, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aladdin Kuroshii/Downloads/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1749593093946985, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1749593094060759, "dur":564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1749593094061359, "dur":1032, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1749593093940405, "dur":2855, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1749593093943260, "dur":3612, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1749593093946882, "dur":113, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.6f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
+,{ "pid":12345, "tid":13, "ts":1749593093946873, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aladdin Kuroshii/Downloads/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":13, "ts":1749593093946997, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1749593094061869, "dur":432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":14, "ts":1749593093940424, "dur":3069, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1749593093943493, "dur":3109, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1749593093946616, "dur":97, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.6f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":14, "ts":1749593093946603, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aladdin Kuroshii/Downloads/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":14, "ts":1749593093946715, "dur":145, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1749593093976849, "dur":628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":14, "ts":1749593093977518, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1749593093977610, "dur":1186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1749593093978904, "dur":1420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1749593093980396, "dur":999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1749593093981526, "dur":1126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1749593093982845, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1749593093982927, "dur":1308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1749593093984421, "dur":2028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1749593093986516, "dur":1560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":14, "ts":1749593093988153, "dur":3323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":14, "ts":1749593093991595, "dur":1176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":14, "ts":1749593093992867, "dur":69487, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1749593093940451, "dur":3046, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1749593093943498, "dur":2948, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1749593093946447, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aladdin Kuroshii/Downloads/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":15, "ts":1749593093946569, "dur":188, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1749593093948450, "dur":1275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":15, "ts":1749593093949783, "dur":94, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.6f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":15, "ts":1749593093949782, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aladdin Kuroshii/Downloads/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":15, "ts":1749593093950134, "dur":4080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":15, "ts":1749593093954365, "dur":8652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":15, "ts":1749593093963145, "dur":1120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":15, "ts":1749593093964378, "dur":2396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":15, "ts":1749593093967295, "dur":381, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1749593093967692, "dur":1312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":15, "ts":1749593093969069, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1749593093969203, "dur":1239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":15, "ts":1749593093970548, "dur":1117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1749593093971724, "dur":249, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1749593093971984, "dur":1122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1749593093973173, "dur":106, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1749593093973345, "dur":1534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1749593093975022, "dur":1257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1749593093976337, "dur":121, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1749593093976478, "dur":1367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1749593093977929, "dur":129, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1749593093978071, "dur":1796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1749593093979975, "dur":1180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1749593093981221, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1749593093981338, "dur":995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1749593093982443, "dur":1534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1749593093984048, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1749593093984168, "dur":1190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1749593093985447, "dur":9734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/My project (1)_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":15, "ts":1749593093995209, "dur":67138, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1749593093940482, "dur":3024, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1749593093943507, "dur":3355, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1749593093946863, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aladdin Kuroshii/Downloads/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":16, "ts":1749593093946970, "dur":124, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1749593094061301, "dur":431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":16, "ts":1749593094061765, "dur":625, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1749593093940503, "dur":3055, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1749593093943559, "dur":3285, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1749593093946890, "dur":162, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1749593094038482, "dur":480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":17, "ts":1749593094038991, "dur":23354, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1749593093940526, "dur":3040, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1749593093943566, "dur":3262, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1749593093946837, "dur":55, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.6f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
+,{ "pid":12345, "tid":18, "ts":1749593093946828, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aladdin Kuroshii/Downloads/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":18, "ts":1749593093946892, "dur":172, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1749593094038812, "dur":569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":18, "ts":1749593094039408, "dur":22940, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1749593093940547, "dur":3044, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1749593093943591, "dur":3125, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1749593093946717, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aladdin Kuroshii/Downloads/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":19, "ts":1749593093946771, "dur":240, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1749593094023035, "dur":519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":19, "ts":1749593094023600, "dur":38779, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1749593093940570, "dur":3028, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1749593093943598, "dur":3022, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1749593093946632, "dur":68, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.6f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":20, "ts":1749593093946626, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Aladdin Kuroshii/Downloads/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":20, "ts":1749593093946701, "dur":298, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1749593093992404, "dur":1011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Aladdin Kuroshii/Downloads/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":20, "ts":1749593093993457, "dur":68929, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1749593094065549, "dur":696, "ph":"X", "name": "ProfilerWriteOutput" }
 ,

@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Aladdin Kuroshii\\Documents\\My project (1)\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|C:\\Users\\Aladdin Kuroshii\\Documents\\My project (1)\\assets\\scripts\\playermove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|C:\\Users\\Aladdin Kuroshii\\Documents\\My project (1)\\assets\\scripts\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|c:\\users\\aladdin kuroshii\\documents\\my project (1)\\assets\\scripts\\sair.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\sair.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|C:\\Users\\Aladdin Kuroshii\\Documents\\My project (1)\\assets\\scripts\\scenestatemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scenestatemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|C:\\Users\\Aladdin Kuroshii\\Documents\\My project (1)\\assets\\scripts\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|C:\\Users\\Aladdin Kuroshii\\Documents\\My project (1)\\assets\\scripts\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|C:\\Users\\Aladdin Kuroshii\\Documents\\My project (1)\\assets\\scripts\\tutorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tutorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|C:\\Users\\Aladdin Kuroshii\\Documents\\My project (1)\\assets\\scripts\\playermove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|C:\\Users\\Aladdin Kuroshii\\Documents\\My project (1)\\assets\\scripts\\saida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -70,11 +70,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Sair.cs",
               "DocumentMoniker": "C:\\Users\\Aladdin Kuroshii\\Documents\\My project (1)\\Assets\\Scripts\\Sair.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Sair.cs",
@@ -99,7 +99,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Tutorial.cs",
               "DocumentMoniker": "C:\\Users\\Aladdin Kuroshii\\Documents\\My project (1)\\Assets\\Scripts\\Tutorial.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Tutorial.cs",
@@ -147,7 +147,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "SceneStateManager.cs",
               "DocumentMoniker": "C:\\Users\\Aladdin Kuroshii\\Documents\\My project (1)\\Assets\\Scripts\\SceneStateManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SceneStateManager.cs",
@@ -183,7 +183,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Bullet.cs",
               "DocumentMoniker": "C:\\Users\\Aladdin Kuroshii\\Documents\\My project (1)\\Assets\\Scripts\\Bullet.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Bullet.cs",
@@ -195,15 +195,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Item.cs",
               "DocumentMoniker": "C:\\Users\\Aladdin Kuroshii\\Documents\\My project (1)\\Assets\\Scripts\\Item.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Item.cs",
               "ToolTip": "C:\\Users\\Aladdin Kuroshii\\Documents\\My project (1)\\Assets\\Scripts\\Item.cs",
               "RelativeToolTip": "Assets\\Scripts\\Item.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAcwEMAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAYwDsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T18:42:35.037Z"
+              "WhenOpened": "2025-03-31T18:42:35.037Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -231,7 +232,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Enemy.cs",
               "DocumentMoniker": "C:\\Users\\Aladdin Kuroshii\\Documents\\My project (1)\\Assets\\Scripts\\Enemy.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy.cs",
@@ -243,15 +244,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "PlayerMove.cs",
               "DocumentMoniker": "C:\\Users\\Aladdin Kuroshii\\Documents\\My project (1)\\Assets\\Scripts\\PlayerMove.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMove.cs",
               "ToolTip": "C:\\Users\\Aladdin Kuroshii\\Documents\\My project (1)\\Assets\\Scripts\\PlayerMove.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerMove.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T17:09:52.657Z"
+              "WhenOpened": "2025-03-24T17:09:52.657Z",
+              "EditorCaption": ""
             }
           ]
         }
