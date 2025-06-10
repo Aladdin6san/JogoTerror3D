@@ -14,7 +14,7 @@ public class Caixa : MonoBehaviour
         {
             caixa.SetActive(true);
             animator.SetBool("Fall", true); // ativa o bool Fall
-            Destroy(outro);
+            outro.SetActive(false);
         }
     }
 }

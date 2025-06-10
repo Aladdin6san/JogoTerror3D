@@ -21,6 +21,9 @@ public class PlayerMove : MonoBehaviour
     public GameObject controle;
     private bool ligar;
 
+    public GameObject bloqueadorDePause;
+
+
     void Start()
     {
         rb = GetComponent<Rigidbody>();
@@ -38,7 +41,7 @@ public class PlayerMove : MonoBehaviour
         transform.Translate(Vector3.forward * Time.deltaTime * speed * foward);
         transform.Translate(Vector3.right * Time.deltaTime * speed * horizontal);
 
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Escape) && !bloqueadorDePause.activeSelf)
         {
             ligar = !ligar;
             controle.SetActive(ligar);
@@ -56,7 +59,6 @@ public class PlayerMove : MonoBehaviour
             else
                 Time.timeScale = 1f; // retoma o jogo
         }
-
 
 
     }

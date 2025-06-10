@@ -372,6 +372,7 @@
 "Assets/Scripts/PlayerMove.cs"
 "Assets/Scripts/Porta.cs"
 "Assets/Scripts/Saida.cs"
+"Assets/Scripts/Sair.cs"
 "Assets/Scripts/SceneStateManager.cs"
 "Assets/Scripts/Tiro.cs"
 "Assets/Scripts/Tutorial.cs"
