@@ -27,7 +27,7 @@ public class TutorialControlador : MonoBehaviour
 
     IEnumerator Painel()
     {
-        yield return new WaitForSeconds(3f);
+        yield return new WaitForSeconds(5f);
         tutorial.SetActive(false);
     }
     public void QuitToMenu()

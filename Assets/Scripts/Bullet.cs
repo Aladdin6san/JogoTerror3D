@@ -23,18 +23,12 @@ public class Bullet : MonoBehaviour
         if (other.gameObject.CompareTag("Tiro"))
         {
             Destroy(other.gameObject);
-            StartCoroutine(PauseEnemySpeed(3f));
+
+            Enemy inimigo = enemy.GetComponent<Enemy>();
+            if (inimigo != null)
+            {
+                inimigo.PararTemporariamente(3f);
+            }
         }
-    }
-
-    // Coroutine para pausar a velocidade do inimigo e restaurar após 3 segundos
-    private IEnumerator PauseEnemySpeed(float delay)
-    {
-        float originalSpeed = enemy.speed; // Armazena a velocidade original do inimigo
-        enemy.speed = 0; // Zera a velocidade do inimigo
-
-        yield return new WaitForSeconds(delay); // Espera o tempo definido
-
-        enemy.speed = originalSpeed; // Restaura a velocidade original do inimigo
     }
 }

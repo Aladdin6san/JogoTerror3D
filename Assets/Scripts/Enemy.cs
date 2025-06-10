@@ -15,6 +15,10 @@ public class Enemy : MonoBehaviour
 
     private float velocidadeOriginal;
 
+    private bool paralisado = false;
+    private float tempoParalisado = 0f;
+
+
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
@@ -23,6 +27,21 @@ public class Enemy : MonoBehaviour
 
     void Update()
     {
+        if (paralisado)
+        {
+            tempoParalisado -= Time.deltaTime;
+
+            if (tempoParalisado <= 0)
+            {
+                paralisado = false;
+            }
+            else
+            {
+                agent.speed = 0;
+                return; // Não faz nada enquanto estiver paralisado
+            }
+        }
+
         agent.destination = player.position;
 
         float distancia = Vector3.Distance(transform.position, player.position);
@@ -37,6 +56,15 @@ public class Enemy : MonoBehaviour
         }
     }
 
+    // Novo método público para pausar o inimigo externamente
+    public void PararTemporariamente(float tempo)
+    {
+        paralisado = true;
+        tempoParalisado = tempo;
+        agent.speed = 0;
+    }
+
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Player"))
@@ -47,4 +75,5 @@ public class Enemy : MonoBehaviour
             Item.ResetarItens();
         }
     }
+
 }

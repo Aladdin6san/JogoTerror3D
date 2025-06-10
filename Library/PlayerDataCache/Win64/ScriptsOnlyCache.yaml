@@ -11,6 +11,7 @@ ScriptsOnlyBuild:
     - PlayerMove
     - Porta
     - Saida
+    - Sair
     - SceneStateManager
     - Tiro
     - TutorialControlador
@@ -142,21 +143,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1640}
     - Class: 114
-      Script: {instanceID: 2792}
+      Script: {instanceID: 2794}
     - Class: 114
-      Script: {instanceID: 3024}
+      Script: {instanceID: 3026}
     - Class: 114
-      Script: {instanceID: 3372}
+      Script: {instanceID: 3374}
     - Class: 114
-      Script: {instanceID: 5660}
+      Script: {instanceID: 5662}
     - Class: 114
-      Script: {instanceID: 6332}
+      Script: {instanceID: 6334}
     - Class: 114
-      Script: {instanceID: 6530}
+      Script: {instanceID: 6532}
     - Class: 114
-      Script: {instanceID: 6910}
+      Script: {instanceID: 6912}
     - Class: 114
-      Script: {instanceID: 7382}
+      Script: {instanceID: 7384}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -197,21 +198,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1640}
     - Class: 114
-      Script: {instanceID: 2792}
+      Script: {instanceID: 2794}
     - Class: 114
-      Script: {instanceID: 3024}
+      Script: {instanceID: 3026}
     - Class: 114
-      Script: {instanceID: 3372}
+      Script: {instanceID: 3374}
     - Class: 114
-      Script: {instanceID: 5660}
+      Script: {instanceID: 5662}
     - Class: 114
-      Script: {instanceID: 6332}
+      Script: {instanceID: 6334}
     - Class: 114
-      Script: {instanceID: 6530}
+      Script: {instanceID: 6532}
     - Class: 114
-      Script: {instanceID: 6910}
+      Script: {instanceID: 6912}
     - Class: 114
-      Script: {instanceID: 7382}
+      Script: {instanceID: 7384}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -254,29 +255,29 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1640}
     - Class: 114
-      Script: {instanceID: 2334}
+      Script: {instanceID: 2336}
     - Class: 114
-      Script: {instanceID: 2792}
+      Script: {instanceID: 2794}
     - Class: 114
-      Script: {instanceID: 3024}
+      Script: {instanceID: 3026}
     - Class: 114
-      Script: {instanceID: 3372}
+      Script: {instanceID: 3374}
     - Class: 114
-      Script: {instanceID: 4396}
+      Script: {instanceID: 4398}
     - Class: 114
-      Script: {instanceID: 4520}
+      Script: {instanceID: 4522}
     - Class: 114
-      Script: {instanceID: 4814}
+      Script: {instanceID: 4816}
     - Class: 114
-      Script: {instanceID: 5660}
+      Script: {instanceID: 5662}
     - Class: 114
-      Script: {instanceID: 6332}
+      Script: {instanceID: 6334}
     - Class: 114
-      Script: {instanceID: 6530}
+      Script: {instanceID: 6532}
     - Class: 114
-      Script: {instanceID: 6910}
+      Script: {instanceID: 6912}
     - Class: 114
-      Script: {instanceID: 7382}
+      Script: {instanceID: 7384}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -337,51 +338,53 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1640}
     - Class: 114
-      Script: {instanceID: 2288}
+      Script: {instanceID: 1816}
     - Class: 114
-      Script: {instanceID: 2792}
+      Script: {instanceID: 2290}
     - Class: 114
-      Script: {instanceID: 3024}
+      Script: {instanceID: 2794}
     - Class: 114
-      Script: {instanceID: 3312}
+      Script: {instanceID: 3026}
     - Class: 114
-      Script: {instanceID: 3372}
+      Script: {instanceID: 3314}
     - Class: 114
-      Script: {instanceID: 3474}
+      Script: {instanceID: 3374}
     - Class: 114
-      Script: {instanceID: 3842}
+      Script: {instanceID: 3476}
     - Class: 114
-      Script: {instanceID: 3848}
+      Script: {instanceID: 3844}
     - Class: 114
-      Script: {instanceID: 4008}
+      Script: {instanceID: 3850}
     - Class: 114
-      Script: {instanceID: 4274}
+      Script: {instanceID: 4010}
     - Class: 114
-      Script: {instanceID: 5660}
+      Script: {instanceID: 4276}
     - Class: 114
-      Script: {instanceID: 5720}
+      Script: {instanceID: 5662}
     - Class: 114
-      Script: {instanceID: 5860}
+      Script: {instanceID: 5722}
     - Class: 114
-      Script: {instanceID: 6298}
+      Script: {instanceID: 5862}
     - Class: 114
-      Script: {instanceID: 6332}
+      Script: {instanceID: 6300}
     - Class: 114
-      Script: {instanceID: 6470}
+      Script: {instanceID: 6334}
     - Class: 114
-      Script: {instanceID: 6530}
+      Script: {instanceID: 6472}
     - Class: 114
-      Script: {instanceID: 6910}
+      Script: {instanceID: 6532}
     - Class: 114
       Script: {instanceID: 6912}
     - Class: 114
-      Script: {instanceID: 6920}
+      Script: {instanceID: 6914}
     - Class: 114
-      Script: {instanceID: 7484}
+      Script: {instanceID: 6922}
     - Class: 114
-      Script: {instanceID: 8320}
+      Script: {instanceID: 7486}
     - Class: 114
-      Script: {instanceID: 8642}
+      Script: {instanceID: 8322}
+    - Class: 114
+      Script: {instanceID: 8644}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -453,6 +456,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: Selectable
+  - hash:
+      serializedVersion: 2
+      Hash: 4dc0091280878ea9475ca8a1933540e5
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Sair
   - hash:
       serializedVersion: 2
       Hash: 92c338a19da8c1d2d1ac886be571df4c
@@ -779,7 +788,7 @@ ScriptsOnlyBuild:
     className: UnityOnMouseDownMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 41c923897589d390ba9b7e010109dfc2
+      Hash: 33447f3143157c6f3e5b5b07b0ea9e44
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: Enemy
@@ -1481,7 +1490,7 @@ ScriptsOnlyBuild:
     className: StandaloneInputModule
   - hash:
       serializedVersion: 2
-      Hash: 3121b228af527d239de4f854e60f71d1
+      Hash: 8427198854abd241156707cd357cf9e7
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: PlayerMove

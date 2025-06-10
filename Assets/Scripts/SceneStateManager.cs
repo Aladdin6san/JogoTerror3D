@@ -100,6 +100,17 @@ public class SceneStateManager : MonoBehaviour
             Item.DefinirContador(estado.contadorItens);
             tiroInstance.DefinirMunicao(estado.municaoJogador);
 
+            // Atualiza texto no UI após carregar o contador
+            foreach (GameObject obj in objetosParaSalvar)
+            {
+                Item itemScript = obj.GetComponent<Item>();
+                if (itemScript != null)
+                {
+                    itemScript.SendMessage("AtualizarTexto");
+                    break; // só precisa de um para atualizar o texto
+                }
+            }
+
             for (int i = 0; i < estado.objetos.Count && i < objetosParaSalvar.Count; i++)
             {
                 GameObject obj = objetosParaSalvar[i];
