@@ -19,6 +19,7 @@ public class Sair : MonoBehaviour
         {
             animator1.SetBool("Open", true);
             animator2.SetBool("Open", true);
+            texto.SetActive(false);
         }
     }
 

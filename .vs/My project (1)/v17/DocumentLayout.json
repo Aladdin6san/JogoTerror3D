@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\Aladdin Kuroshii\\Documents\\My project (1)\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|C:\\Users\\Aladdin Kuroshii\\Documents\\My project (1)\\assets\\scripts\\sair.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|c:\\users\\aladdin kuroshii\\documents\\my project (1)\\assets\\scripts\\sair.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\sair.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|c:\\users\\aladdin kuroshii\\documents\\my project (1)\\assets\\scripts\\scenestatemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|C:\\Users\\Aladdin Kuroshii\\Documents\\My project (1)\\assets\\scripts\\scenestatemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scenestatemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -80,7 +80,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Sair.cs",
               "ToolTip": "C:\\Users\\Aladdin Kuroshii\\Documents\\My project (1)\\Assets\\Scripts\\Sair.cs",
               "RelativeToolTip": "Assets\\Scripts\\Sair.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-10T01:55:11.6Z",
               "EditorCaption": ""
@@ -155,8 +155,7 @@
               "RelativeToolTip": "Assets\\Scripts\\SceneStateManager.cs",
               "ViewState": "AgIAAFEAAAAAAAAAAAAswG8AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T16:02:18.472Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-02T16:02:18.472Z"
             },
             {
               "$type": "Document",
