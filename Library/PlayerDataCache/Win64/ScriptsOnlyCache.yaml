@@ -15,9 +15,10 @@ ScriptsOnlyBuild:
     - SceneStateManager
     - Tiro
     - TutorialControlador
-    - Void
     Cinemachine.dll:
     - Cinemachine.CinemachineBrain
+    Unity.AI.Navigation.Editor.dll:
+    - Unity.AI.Navigation.Editor.NavMeshAssetManager
     Unity.AI.Navigation.dll:
     - Unity.AI.Navigation.NavMeshSurface
     Unity.Rider.Editor.dll:
@@ -354,8 +355,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3850}
     - Class: 114
-      Script: {instanceID: 4010}
-    - Class: 114
       Script: {instanceID: 4276}
     - Class: 114
       Script: {instanceID: 5662}
@@ -386,8 +385,6 @@ ScriptsOnlyBuild:
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
-      Script: {instanceID: 0}
-    - Class: 136
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
