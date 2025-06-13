@@ -373,6 +373,7 @@
 "Assets/Scripts/Porta.cs"
 "Assets/Scripts/Saida.cs"
 "Assets/Scripts/Sair.cs"
+"Assets/Scripts/Scare.cs"
 "Assets/Scripts/SceneStateManager.cs"
 "Assets/Scripts/Tiro.cs"
 "Assets/Scripts/Tutorial.cs"
