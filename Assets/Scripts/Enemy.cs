@@ -18,11 +18,24 @@ public class Enemy : MonoBehaviour
     private bool paralisado = false;
     private float tempoParalisado = 0f;
 
-
+    public AudioSource somAtivar;    // Som que toca quando inimigo aparece
+    public AudioSource somParar;     // Som que deve parar
+    public GameObject chase;
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
         velocidadeOriginal = agent.speed; // salva a velocidade configurada no Inspector
+
+        if (somParar != null && somParar.isPlaying)
+        {
+            somParar.Stop();
+        }
+
+        if (somAtivar != null && !somAtivar.isPlaying)
+        {
+            chase.SetActive(true);
+            somAtivar.Play();
+        }
     }
 
     void Update()

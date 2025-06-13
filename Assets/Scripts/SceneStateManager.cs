@@ -36,7 +36,7 @@ public class SceneStateManager : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.P))
+        /*if (Input.GetKeyDown(KeyCode.P))
         {
             ResetarSave();
             return; // evita executar o restante
@@ -46,7 +46,7 @@ public class SceneStateManager : MonoBehaviour
         {
             SalvarEstado();
             return;
-        }
+        }*/
 
         // Salvar apenas uma vez ao alcançar o sexto item
         if (Item.ObterContador() == 6 && !jaSalvou)

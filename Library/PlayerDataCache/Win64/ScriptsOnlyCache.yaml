@@ -12,6 +12,7 @@ ScriptsOnlyBuild:
     - Porta
     - Saida
     - Sair
+    - Scare
     - SceneStateManager
     - Tiro
     - TutorialControlador
@@ -148,15 +149,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3374}
     - Class: 114
-      Script: {instanceID: 5662}
+      Script: {instanceID: 5664}
     - Class: 114
-      Script: {instanceID: 6334}
+      Script: {instanceID: 6336}
     - Class: 114
-      Script: {instanceID: 6532}
+      Script: {instanceID: 6534}
     - Class: 114
-      Script: {instanceID: 6912}
+      Script: {instanceID: 6914}
     - Class: 114
-      Script: {instanceID: 7384}
+      Script: {instanceID: 7386}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -203,15 +204,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3374}
     - Class: 114
-      Script: {instanceID: 5662}
+      Script: {instanceID: 5664}
     - Class: 114
-      Script: {instanceID: 6334}
+      Script: {instanceID: 6336}
     - Class: 114
-      Script: {instanceID: 6532}
+      Script: {instanceID: 6534}
     - Class: 114
-      Script: {instanceID: 6912}
+      Script: {instanceID: 6914}
     - Class: 114
-      Script: {instanceID: 7384}
+      Script: {instanceID: 7386}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -245,6 +246,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 104
@@ -264,19 +269,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4398}
     - Class: 114
-      Script: {instanceID: 4522}
+      Script: {instanceID: 4524}
     - Class: 114
-      Script: {instanceID: 4816}
+      Script: {instanceID: 4818}
     - Class: 114
-      Script: {instanceID: 5662}
+      Script: {instanceID: 5664}
     - Class: 114
-      Script: {instanceID: 6334}
+      Script: {instanceID: 6336}
     - Class: 114
-      Script: {instanceID: 6532}
+      Script: {instanceID: 6534}
     - Class: 114
-      Script: {instanceID: 6912}
+      Script: {instanceID: 6914}
     - Class: 114
-      Script: {instanceID: 7384}
+      Script: {instanceID: 7386}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -357,31 +362,33 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4276}
     - Class: 114
-      Script: {instanceID: 5662}
+      Script: {instanceID: 4446}
     - Class: 114
-      Script: {instanceID: 5722}
+      Script: {instanceID: 5664}
     - Class: 114
-      Script: {instanceID: 5862}
+      Script: {instanceID: 5724}
     - Class: 114
-      Script: {instanceID: 6300}
+      Script: {instanceID: 5864}
     - Class: 114
-      Script: {instanceID: 6334}
+      Script: {instanceID: 6302}
     - Class: 114
-      Script: {instanceID: 6472}
+      Script: {instanceID: 6336}
     - Class: 114
-      Script: {instanceID: 6532}
+      Script: {instanceID: 6474}
     - Class: 114
-      Script: {instanceID: 6912}
+      Script: {instanceID: 6534}
     - Class: 114
       Script: {instanceID: 6914}
     - Class: 114
-      Script: {instanceID: 6922}
+      Script: {instanceID: 6916}
     - Class: 114
-      Script: {instanceID: 7486}
+      Script: {instanceID: 6924}
     - Class: 114
-      Script: {instanceID: 8322}
+      Script: {instanceID: 7488}
     - Class: 114
-      Script: {instanceID: 8644}
+      Script: {instanceID: 8324}
+    - Class: 114
+      Script: {instanceID: 8646}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -783,7 +790,7 @@ ScriptsOnlyBuild:
     className: UnityOnMouseDownMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 33447f3143157c6f3e5b5b07b0ea9e44
+      Hash: 60db9edf8d5e512cee66a0878bd0ee5f
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: Enemy
@@ -997,6 +1004,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: VariablesSaver
+  - hash:
+      serializedVersion: 2
+      Hash: de89e004be33fa099c9e10b92e4bed21
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Scare
   - hash:
       serializedVersion: 2
       Hash: 34096a327d779b7c96a3e390f3559143
