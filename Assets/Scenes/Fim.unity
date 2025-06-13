@@ -326,7 +326,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -10, y: 43}
+  m_AnchoredPosition: {x: -10, y: 297}
   m_SizeDelta: {x: 388.5294, y: 195.6114}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &830312235
@@ -349,9 +349,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Congratulations
-
-    You fineshed the beta game.'
+  m_text: "Congratulations\nYou fineshed the game.\n\nGame made by:\n\n-Aladdin Kuroshii
+    (Programer)\n-J\xFAlio Cersar (Sound)\n-Melissa (Designer)"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -414,7 +413,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: -93.933014, y: 0, z: -80.10806, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -464,7 +463,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -192.73735}
+  m_AnchoredPosition: {x: 0, y: -334}
   m_SizeDelta: {x: 160, y: 94.5253}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1159033261
